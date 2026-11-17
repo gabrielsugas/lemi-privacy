@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="description" content="Política de privacidad de Grupo Lemi sobre el tratamiento de datos personales y las comunicaciones realizadas mediante WhatsApp.">
+  <meta name="theme-color" content="#f7f7f5">
+  <title>Política de privacidad | Grupo Lemi</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202521;
+      --muted: #66716a;
+      --line: #e5e9e5;
+      --paper: #ffffff;
+      --wash: #f7f8f6;
+      --green: #176b45;
+      --green-dark: #105437;
+      --green-pale: #edf6f0;
+      --max: 900px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--wash);
+      color: var(--ink);
+      font: 16px/1.72 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--green); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--green-dark); }
+    .topbar {
+      height: 7px;
+      background: var(--green);
+    }
+    header {
+      padding: 54px 22px 38px;
+      background: linear-gradient(135deg, #f0f6f1 0%, #fbfcfa 72%);
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner, main, footer {
+      width: min(var(--max), calc(100% - 40px));
+      margin-inline: auto;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 35px;
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .brand-mark {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border-radius: 10px;
+      background: var(--green);
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      font-size: clamp(34px, 6vw, 52px);
+      line-height: 1.08;
+      letter-spacing: -.045em;
+      font-weight: 760;
+    }
+    .intro {
+      max-width: 700px;
+      margin: 19px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+    .updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 24px;
+      color: #536158;
+      font-size: 13px;
+    }
+    .updated::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #4f9a70;
+    }
+    main { padding-block: 38px 72px; }
+    .notice {
+      margin-bottom: 26px;
+      padding: 17px 20px;
+      border: 1px solid #d9e9dd;
+      border-radius: 13px;
+      background: var(--green-pale);
+      color: #294b36;
+      font-size: 14px;
+    }
+    .contents {
+      margin-bottom: 26px;
+      padding: 22px 24px;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background: var(--paper);
+    }
+    .contents strong { display: block; margin-bottom: 10px; }
+    .contents ol {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px 26px;
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .contents a { color: inherit; text-decoration: none; }
+    .contents a:hover { color: var(--green); text-decoration: underline; }
+    article {
+      padding: 29px 32px;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background: var(--paper);
+    }
+    section { scroll-margin-top: 24px; }
+    section + section {
+      margin-top: 28px;
+      padding-top: 26px;
+      border-top: 1px solid var(--line);
+    }
+    h2 {
+      margin: 0 0 13px;
+      font-size: 21px;
+      line-height: 1.35;
+      letter-spacing: -.02em;
+    }
+    p { margin: 0 0 13px; }
+    p:last-child { margin-bottom: 0; }
+    ul { margin: 10px 0 15px; padding-left: 23px; }
+    li { margin: 6px 0; padding-left: 3px; }
+    .contact-card {
+      margin-top: 14px;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfcfb;
+    }
+    .contact-card p + p { margin-top: 8px; }
+    .contact-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      padding: 10px 15px;
+      border-radius: 9px;
+      background: var(--green);
+      color: white;
+      font-size: 14px;
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .contact-link:hover { background: var(--green-dark); color: white; }
+    footer {
+      padding: 24px 0 42px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+    footer p { margin: 0; }
+    @media (max-width: 640px) {
+      header { padding: 38px 0 30px; }
+      .header-inner, main, footer { width: min(100% - 28px, var(--max)); }
+      .brand { margin-bottom: 27px; }
+      .contents { padding: 18px 19px; }
+      .contents ol { grid-template-columns: 1fr; gap: 8px; }
+      article { padding: 23px 20px; }
+      h2 { font-size: 19px; }
+    }
+    @media print {
+      body { background: #fff; }
+      header { background: #fff; }
+      .contents, .contact-link { display: none; }
+      article { border: 0; padding: 0; }
+      main { padding-top: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar" aria-hidden="true"></div>
+  <header>
+    <div class="header-inner">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">L</span> Grupo Lemi</div>
+      <h1>Política de privacidad</h1>
+      <p class="intro">Información sobre cómo tratamos los datos personales relacionados con la atención de clientes y las comunicaciones realizadas mediante WhatsApp.</p>
+      <div class="updated">Última actualización: 17 de noviembre de 2026</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="notice">
+      Esta política se aplica a las comunicaciones comerciales y administrativas que Grupo Lemi mantiene con sus clientes mediante WhatsApp y a las herramientas internas utilizadas para gestionar esas comunicaciones.
+    </div>
+
+    <nav class="contents" aria-label="Contenido de la política">
+      <strong>Contenido</strong>
+      <ol>
+        <li><a href="#responsable">Responsable del tratamiento</a></li>
+        <li><a href="#datos">Datos que podemos tratar</a></li>
+        <li><a href="#finalidades">Finalidades</a></li>
+        <li><a href="#origen">Origen de los datos</a></li>
+        <li><a href="#servicios">Servicios y proveedores</a></li>
+        <li><a href="#conservacion">Conservación y almacenamiento</a></li>
+        <li><a href="#seguridad">Seguridad y acceso</a></li>
+        <li><a href="#derechos">Solicitudes y eliminación</a></li>
+        <li><a href="#cambios">Cambios y contacto</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <section id="responsable">
+        <h2>1. Responsable del tratamiento</h2>
+        <p>Grupo Lemi, identificado en sus canales comerciales como <strong>Corporación Lemi</strong> (en adelante, “Grupo Lemi”), es responsable del tratamiento de los datos personales que recibe y utiliza para atender a sus clientes y gestionar sus comunicaciones comerciales y administrativas.</p>
+        <p>Esta política se refiere específicamente a las comunicaciones gestionadas mediante WhatsApp Business Platform y a la herramienta interna WhatsApp Sender.</p>
+      </section>
+
+      <section id="datos">
+        <h2>2. Datos que podemos tratar</h2>
+        <p>Según la interacción y la relación comercial, podemos tratar las siguientes categorías de información:</p>
+        <ul>
+          <li><strong>Datos de contacto:</strong> número de teléfono, nombre y otros datos de identificación que la persona decida facilitar.</li>
+          <li><strong>Contenido de comunicaciones:</strong> mensajes enviados y recibidos, consultas, respuestas y archivos que el cliente comparta voluntariamente, como imágenes o comprobantes de pago.</li>
+          <li><strong>Datos técnicos de mensajería:</strong> identificadores de mensajes, fechas y horas, y estados de procesamiento, envío, entrega, lectura o error.</li>
+          <li><strong>Información comercial:</strong> datos relacionados con facturas, saldos pendientes, vencimientos, pagos y gestiones de cuentas por cobrar, cuando sean necesarios para atender la relación comercial.</li>
+        </ul>
+        <p>No solicitamos que los clientes envíen por WhatsApp contraseñas, códigos de acceso ni información financiera completa de sus instrumentos de pago.</p>
+      </section>
+
+      <section id="finalidades">
+        <h2>3. Para qué utilizamos los datos</h2>
+        <p>Tratamos la información para las siguientes finalidades:</p>
+        <ul>
+          <li>Responder consultas y solicitudes de nuestros clientes.</li>
+          <li>Enviar comunicaciones administrativas y comerciales relacionadas con la relación existente con el cliente.</li>
+          <li>Compartir recordatorios y resúmenes de facturas pendientes.</li>
+          <li>Coordinar pagos, dar seguimiento a acuerdos y recibir comprobantes cuando corresponda.</li>
+          <li>Verificar el estado de los mensajes y atender incidencias de entrega.</li>
+          <li>Proteger los canales de comunicación, prevenir usos indebidos y mantener la trazabilidad operativa de las gestiones.</li>
+        </ul>
+        <p>Las comunicaciones iniciadas por Grupo Lemi mediante plantillas de WhatsApp se realizan de acuerdo con las condiciones de WhatsApp Business Platform y las autorizaciones o bases aplicables a la relación con el cliente.</p>
+      </section>
+
+      <section id="origen">
+        <h2>4. Origen de los datos</h2>
+        <p>La información puede proceder directamente del cliente cuando se comunica con Grupo Lemi, de los datos que facilita durante la relación comercial o de los registros comerciales y administrativos de Grupo Lemi que sean necesarios para atender sus solicitudes y gestionar sus cuentas.</p>
+      </section>
+
+      <section id="servicios">
+        <h2>5. Servicios y proveedores que intervienen</h2>
+        <p>Para operar el canal de comunicaciones utilizamos servicios tecnológicos que intervienen en el tratamiento de la información:</p>
+        <ul>
+          <li><strong>Meta / WhatsApp Business Platform:</strong> transmite los mensajes y proporciona los eventos técnicos asociados a su recepción y entrega. Meta también trata información conforme a sus propias políticas y condiciones.</li>
+          <li><strong>Supabase:</strong> proporciona servicios de infraestructura para la gestión de campañas, destinatarios, autorizaciones, estados de envío y recepción temporal de eventos pendientes de ser procesados por WhatsApp Sender.</li>
+          <li><strong>WhatsApp Sender:</strong> herramienta interna utilizada por personal autorizado de Grupo Lemi para preparar campañas, gestionar respuestas y consultar las comunicaciones.</li>
+        </ul>
+        <p>Estos proveedores pueden tratar información desde infraestructuras ubicadas en distintas jurisdicciones, de acuerdo con sus condiciones de servicio y políticas aplicables. Grupo Lemi limita el uso de la información a las finalidades descritas en esta política y a las operaciones necesarias para prestar el servicio.</p>
+      </section>
+
+      <section id="conservacion">
+        <h2>6. Conservación y almacenamiento</h2>
+        <p>Los mensajes recibidos y las respuestas gestionadas mediante WhatsApp Sender se guardan en una base de datos local en el equipo autorizado donde se utiliza la aplicación. El historial local no se elimina automáticamente por antigüedad; un operador autorizado puede eliminar conversaciones manualmente desde la herramienta.</p>
+        <p>Los datos necesarios para preparar y administrar campañas —por ejemplo, destinatarios, información de plantilla, autorizaciones y estados de envío— se conservan en los sistemas de Supabase utilizados por Grupo Lemi. Los eventos entrantes pendientes se mantienen temporalmente en una cola técnica hasta que WhatsApp Sender confirma su recepción.</p>
+        <p>La conservación de registros comerciales y administrativos se determina según las necesidades operativas de Grupo Lemi y las obligaciones legales que puedan resultar aplicables. La eliminación de una conversación de la copia local no implica necesariamente la eliminación de registros de campaña o de documentos comerciales que deban conservarse por separado.</p>
+      </section>
+
+      <section id="seguridad">
+        <h2>7. Seguridad y acceso a la información</h2>
+        <p>El acceso a las herramientas internas de comunicación está limitado al personal autorizado que necesita utilizar la información para atender a los clientes o gestionar las actividades comerciales y administrativas.</p>
+        <p>Grupo Lemi utiliza controles de acceso y medidas técnicas razonables para proteger la información frente a accesos, alteraciones, pérdidas o divulgaciones no autorizadas. Ningún medio de transmisión o almacenamiento puede garantizar seguridad absoluta.</p>
+        <p>Grupo Lemi no vende datos personales de sus clientes.</p>
+      </section>
+
+      <section id="derechos">
+        <h2>8. Solicitudes de información y eliminación</h2>
+        <p>Los clientes pueden solicitar información sobre el tratamiento de sus datos, pedir la corrección de información inexacta o solicitar la eliminación de datos personales, cuando corresponda.</p>
+        <p>Para presentar una solicitud, puede escribir al canal comercial de Grupo Lemi e indicar claramente que se trata de una <strong>solicitud de privacidad o eliminación de datos</strong>. Para localizar la información, podremos pedir los datos mínimos necesarios para verificar la identidad del solicitante y la relación con la información.</p>
+        <p>Evaluaremos la solicitud y comunicaremos su resultado. La eliminación puede estar sujeta a obligaciones legales, contables, contractuales o a la necesidad de conservar determinados registros de la relación comercial. Si se elimina una conversación desde WhatsApp Sender, esa acción elimina la copia local gestionada por la aplicación; los registros comerciales que se conserven separadamente se revisarán de acuerdo con la solicitud y las obligaciones aplicables.</p>
+        <div class="contact-card">
+          <strong>Canal para solicitudes de privacidad</strong>
+          <p>WhatsApp comercial: <a href="https://wa.me/584124828420">+58 412-4828420</a></p>
+          <p>Sitio web: <a href="https://alimentoslemi.com/" target="_blank" rel="noopener noreferrer">alimentoslemi.com</a></p>
+          <a class="contact-link" href="https://wa.me/584124828420?text=Hola%2C%20deseo%20realizar%20una%20solicitud%20de%20privacidad%20o%20eliminaci%C3%B3n%20de%20datos.">Enviar solicitud de privacidad</a>
+        </div>
+      </section>
+
+      <section id="cambios">
+        <h2>9. Cambios en esta política</h2>
+        <p>Podemos actualizar esta política cuando cambien nuestras operaciones, las herramientas utilizadas o los requisitos legales aplicables. La versión vigente estará disponible en esta misma dirección e indicará su fecha de actualización.</p>
+        <p>Para consultas relacionadas con esta política, puede utilizar los canales de contacto indicados anteriormente.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2026 Grupo Lemi. Política de privacidad de las comunicaciones gestionadas mediante WhatsApp.</p>
+  </footer>
+</body>
+</html>
